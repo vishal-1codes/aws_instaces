@@ -171,6 +171,11 @@ for screen check runing or not
 -then ctr+c stop flask 
 -ctr+a+d
 
+when screen attched (When you do not access screen)
+-screen -d -r 7491.flask_bg
+-then ctr+c stop flask
+-ctr+a+d
+
 -screen -ls 
  for checking screen runing or not
 
